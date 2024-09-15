@@ -30,7 +30,7 @@ $ np.savez_compressed(Output_path, matrix=Your_matrix)
     │   │── 1_150/                            #Enhance rate (Downsample rate)
     │   │   ├── 20_Type3_patches.npz          #The third type of the signals decomposited (contacts due to other fine structures)
     │   │   ├── chr20_low_matrix.npz          #The low-resolution maps (downsampled at the specific downsample rate)
-    │   │   └── chr20_record.txt              #The record to remove the second type of signals
+    │   │   └── chr20_record.txt              #The record of the second type of signals
     │   │── Output/
     │   │   ├── SHARP_20_reconstructed.npz    #The final resolution-enhanced Hi-C contact matrix
     │   └── chr20_high_matrix.npz             #Actual high-resolution maps
