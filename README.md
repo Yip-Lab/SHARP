@@ -89,7 +89,7 @@ $ python Decomposition_save.py  --chr 20 --k_para 160000000 --matrix "../Data/ch
 --black_list1       #Blacklist array1
 --black_list2       #Blacklist array2
 ```
-`Decomposition.py` outputs a txt file contains the record for the second type of signals during the signal decomposition process
+`Decomposition.py` outputs a txt file contains the record for the second type of signals during the signal decomposition process.
 `Decomposition_save.py` outputs a npz file named as *.Type3_patches.npz that contains the patches for the third type of signals that can be used for training and test.
 
 
