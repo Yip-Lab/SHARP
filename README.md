@@ -120,7 +120,7 @@ $ python Train.py
 ### Integrate the three types of signals: 
 ```
 $ cd Evaluation
-$ python Addback.py -chr 20 --k_para 160000000 --matrix "../Data/1_150/chr20_low_matrix.npz" --model ../Model/SHARP_best_model.pt --multi 150 --output_path "../Data/Output/" --patches "../Data/1_150/20_Type3_patches.npz" --record_file "../Data/1_150/chr20_record.txt" --use_blacklist True --black_list1 0 5273 5788 6199 9579 --black_list2 14 5783 5853 6249 9580
+$ python Addback.py --chr 20 --k_para 160000000 --matrix "../Data/1_150/chr20_low_matrix.npz" --model ../Model/SHARP_best_model.pt --multi 150 --output_path "../Data/Output/" --patches "../Data/1_150/20_Type3_patches.npz" --record_file "../Data/1_150/chr20_record.txt" --use_blacklist True --black_list1 0 5273 5788 6199 9579 --black_list2 14 5783 5853 6249 9580
 ```
 `Addback.py` accepts the patches contains the third type of signals, enhance it with the trained SHARP model, and integrate the enhanced third type of signals with the enhanced first, second type of signals. The configures are as follows:
 ```
