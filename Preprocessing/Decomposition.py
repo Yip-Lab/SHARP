@@ -73,6 +73,7 @@ def Decomposition(chr_in, k_para, matrix, output_path, use_blacklist, black_list
             for add_bias in range(10, add_bias_maxsize, step):
                 if cpoint + basic_size + add_bias + step < size2 and cpoint - 15 >= 0:
                     add_candidate_lower = compacted_matrix[cpoint: cpoint + basic_size + add_bias - step, cpoint + basic_size + add_bias - step: cpoint + basic_size + add_bias].mean()
+                    # compare_candidate_lower = compacted_matrix[cpoint: cpoint + basic_size + add_bias - step, cpoint - 10: cpoint].mean()
                     compare_candidate_lower = compacted_matrix[cpoint: cpoint + basic_size + add_bias - step, cpoint - 15: cpoint-2].mean()
                     candidate_mean = compacted_matrix[cpoint: cpoint + basic_size + add_bias - step, cpoint: cpoint + basic_size + add_bias - step].mean()
                     out_candidate_lower = compacted_matrix[cpoint: cpoint + basic_size + add_bias - step, cpoint + basic_size + add_bias: cpoint + basic_size + add_bias + step].mean()
