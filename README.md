@@ -6,6 +6,8 @@ SHARP: Overcoming artificial structures in resolution-enhanced Hi-C data by sign
 ## Overview
 SHARP is a Python-based tool designed to enhance the resolution of Hi-C data. By leveraging signal decomposition and multi-scale attention, this tool enables researchers to achieve smooth high-resolution Hi-C data, facilitating more detailed genomic interaction analyses.
 
+The Zenodo DOI is 10.5281/zenodo.14591419.
+
 
 ## Dependencies
 The following versions are recommended for optimal performance when using SHARP:
